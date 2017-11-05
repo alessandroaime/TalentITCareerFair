@@ -1,0 +1,543 @@
+ [
+  {
+  "name": "Aalto Career and Recruiting Services",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Aalto Start-Up Center",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Aalto University Alumni Engagement",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Aalto University Information Technology Program",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Aalto Ventures Program",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "ABB",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Academic Work",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Accenture",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Affecto",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Airbus Defence and Space",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Amban",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Analyse2",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Basware",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Bitwards",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Cadmatic",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Capgemini + Idean",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "CGI",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Cinia Group",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Codemate",
+  "notes": "",
+  "status": "positive"
+  },
+  {
+  "name": "Codemen",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Codership",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "CSC – IT Center for Science",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Cybercom",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Digia",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Dream Broker",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Duunitori",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Eatech",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "eCraft",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Efecte",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "EIT Digital Master School",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Elisa",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Elo Pension Company",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Ericsson",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Etteplan",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "EY",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Fazer",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "FCG Prodacapo",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Fingrid",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "FinScan",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Forcepoint",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Foreca",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Fortum",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Fujitsu Sofware Technologies",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Futuriot",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "GE",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Gofore + Leadin",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Handelsbanken",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Harald Herlin Learning Center, Video Studio",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "HiQ",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Houston Inc Consulting",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "ICEYE",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Innofactor",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Integration House",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Invenco",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Jamix",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Japan Career Pavilions",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Kela",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Kesko",
+  "notes": "",
+  "status": "positive"
+  },
+  {
+  "name": "Kiinnostavimmat Työpaikat",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Knowit",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Kouvola Innovation + Propentus",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Kyberrikostorjuntakeskus",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Legal Register Centre",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Microsoft",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Mipro",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "National Land Survey of Finland",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Neste Jacobs",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Nitor",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Nokia",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "NordPool",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "NVIDIA",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Optiscan",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "P+SBD",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Polycon",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Poplatek",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Procountor",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Puolustusvoimat",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "RD Velho",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "RedLynx, a Ubisoft Studio",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "RELEX Solutions",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Remedy Entertainment",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Sievo",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Siili Solutions",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Sogeti",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Solteq",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Startuplifers",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Statoil",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Studentwork",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Suomen Erillisverkot",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Sysmex",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Taito United",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "TIVIA",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Trimble",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "u-blox",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Umbra",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Unity Technologies",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Urban Mill – Co-working and Co-creation platform",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Vaisala",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Valtori",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Varian",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Viking Line",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Vincit",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Visma",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Visual Components",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "VRT",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "VTT Technical Research Centre of Finland",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "Works Applications",
+  "notes": "",
+  "status": "unrated"
+  },
+  {
+  "name": "X-akseli",
+  "notes": "",
+  "status": "unrated"
+  }
+  ]
+
