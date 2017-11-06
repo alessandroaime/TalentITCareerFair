@@ -1,6 +1,6 @@
 import Foundation
 
-var absoluteIndexPath: IndexPath = []
+var companies: Array<Company> = []
 
 enum Status: String, Codable {
     case positive
@@ -11,19 +11,23 @@ enum Status: String, Codable {
 
 struct Company: Codable {
     let name: String
-    var notes: String?
     var status: String
 }
 
-let path = Bundle.main.path(forResource: "Companies", ofType: "json")
-let jsonData = try! Data(contentsOf: URL(fileURLWithPath: path!), options: .mappedIfSafe)
-let jsonDecoder = JSONDecoder()
-var companies = try? jsonDecoder.decode(Array<Company>.self, from: jsonData)
+func readJSON() {
+    let path = Bundle.main.path(forResource: "Companies", ofType: "json")
+    let jsonData = try! Data(contentsOf: URL(fileURLWithPath: path!), options: .mappedIfSafe)
+    let jsonDecoder = JSONDecoder()
+    companies = try! jsonDecoder.decode(Array<Company>.self, from: jsonData)
+}
 
-func updateJSON() {
+func writeJSON() {
     let jsonEncoder = JSONEncoder()
     jsonEncoder.outputFormatting = .prettyPrinted
     let backToJson = try! jsonEncoder.encode(companies)
     let jsonString = String(data: backToJson, encoding: .utf8)
-    print(jsonString!)
+    let path = Bundle.main.path(forResource: "Companies", ofType: "json")
+    do {
+      try jsonString?.write(to: URL(fileURLWithPath: path!), atomically: false, encoding: .utf8)
+    } catch {}
 }

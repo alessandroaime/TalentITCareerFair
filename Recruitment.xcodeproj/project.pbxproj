@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D224157A1FAFC9050065D44D /* SheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22415791FAFC9050065D44D /* SheetViewController.swift */; };
 		D26BF2701FAF5B9D00E6FBCA /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26BF26F1FAF5B9D00E6FBCA /* Company.swift */; };
 		D2940C791FAD987D00BC458B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2940C781FAD987D00BC458B /* AppDelegate.swift */; };
 		D2940C7E1FAD987D00BC458B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2940C7C1FAD987D00BC458B /* Main.storyboard */; };
@@ -20,7 +19,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D22415791FAFC9050065D44D /* SheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetViewController.swift; sourceTree = "<group>"; };
 		D26BF26F1FAF5B9D00E6FBCA /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
 		D2940C751FAD987D00BC458B /* Recruitment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recruitment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2940C781FAD987D00BC458B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -69,7 +67,6 @@
 			children = (
 				D2940C8D1FAD9ACC00BC458B /* TableViewController.swift */,
 				D2940C911FAD9F9300BC458B /* CellViewController.swift */,
-				D22415791FAFC9050065D44D /* SheetViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -186,7 +183,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2940C921FAD9F9300BC458B /* CellViewController.swift in Sources */,
-				D224157A1FAFC9050065D44D /* SheetViewController.swift in Sources */,
 				D2940C8E1FAD9ACC00BC458B /* TableViewController.swift in Sources */,
 				D2940C791FAD987D00BC458B /* AppDelegate.swift in Sources */,
 				D26BF2701FAF5B9D00E6FBCA /* Company.swift in Sources */,

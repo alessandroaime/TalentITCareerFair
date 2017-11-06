@@ -2,36 +2,20 @@ import UIKit
 
 class CellViewController: UITableViewCell {
     
-    @IBOutlet weak var companyName: UILabel!
-    @IBOutlet weak var companyStatus: UILabel!
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var statusIndicator: UILabel!
     
-    func setStatusColor() {
-        switch companies![absoluteIndexPath.row].status {
+    func setStatusIndicator(_ indexPath: IndexPath) {
+        switch companies[indexPath.row].status {
         case "positive":
-            companyStatus.textColor = UIColor.green
+            statusIndicator.textColor = UIColor.green
         case "neutral":
-            companyStatus.textColor = UIColor.yellow
+            statusIndicator.textColor = UIColor.yellow
         case "negative":
-            companyStatus.textColor = UIColor.red
+            statusIndicator.textColor = UIColor.red
         default:
-            companyStatus.textColor = UIColor.gray
+            statusIndicator.textColor = UIColor.gray
         }
     }
     
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        //let touch = touches.first!
-        let tapCount = touches.first!.tapCount
-        switch tapCount {
-        case 1:
-            companies![absoluteIndexPath.row].status = "positive"   //.positive
-        case 2:
-            companies![absoluteIndexPath.row].status = "neutral"    //.neutral
-        case 3:
-            companies![absoluteIndexPath.row].status = "negative"   //.negative
-        default:
-            companies![absoluteIndexPath.row].status = "unknown"    //.unknown
-        }
-        self.setStatusColor()
-        updateJSON()
-    }
 }
