@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D2222CBF1FB26A4C0086248F /* InitialData.xcappdata in Resources */ = {isa = PBXBuildFile; fileRef = D2222CBE1FB26A4C0086248F /* InitialData.xcappdata */; };
 		D25E12901FB21C8C0079F48B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25E128F1FB21C8C0079F48B /* AppDelegate.swift */; };
 		D25E12951FB21C8C0079F48B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D25E12931FB21C8C0079F48B /* Main.storyboard */; };
 		D25E12981FB21C8C0079F48B /* TalentIT.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D25E12961FB21C8C0079F48B /* TalentIT.xcdatamodeld */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D2222CBE1FB26A4C0086248F /* InitialData.xcappdata */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = InitialData.xcappdata; sourceTree = "<group>"; };
 		D25E128C1FB21C8C0079F48B /* TalentIT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TalentIT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D25E128F1FB21C8C0079F48B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D25E12941FB21C8C0079F48B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -41,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D2222CBD1FB26A320086248F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D2222CBE1FB26A4C0086248F /* InitialData.xcappdata */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		D25E12831FB21C8C0079F48B = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +73,7 @@
 				D25E12A61FB21CA10079F48B /* Models */,
 				D25E12A51FB21C9C0079F48B /* Views */,
 				D25E12A41FB21C970079F48B /* Controllers */,
+				D2222CBD1FB26A320086248F /* Resources */,
 				D25E12991FB21C8C0079F48B /* Assets.xcassets */,
 				D25E129E1FB21C8C0079F48B /* Info.plist */,
 				D25E12961FB21C8C0079F48B /* TalentIT.xcdatamodeld */,
@@ -159,6 +170,7 @@
 				D25E129D1FB21C8C0079F48B /* LaunchScreen.storyboard in Resources */,
 				D25E12B01FB231580079F48B /* Cell.xib in Resources */,
 				D25E129A1FB21C8C0079F48B /* Assets.xcassets in Resources */,
+				D2222CBF1FB26A4C0086248F /* InitialData.xcappdata in Resources */,
 				D25E12951FB21C8C0079F48B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

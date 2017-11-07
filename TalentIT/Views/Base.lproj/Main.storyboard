@@ -33,13 +33,7 @@
                             <outlet property="delegate" destination="KWq-zh-f8w" id="si8-83-cgP"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="CVG-P2-uLq">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="CWP-ng-VKb">
-                            <connections>
-                                <action selector="addCompany:" destination="KWq-zh-f8w" id="KTW-Md-HSh"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" id="CVG-P2-uLq"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P95-ta-GML" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -8,6 +8,9 @@ class TableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //initializeCoreData()
+        
         title = "TalentIT"
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "Cell")
     }
@@ -62,7 +65,7 @@ class TableViewController: UITableViewController {
         present(actionSheet, animated: true, completion: nil)
     }
     
-    @IBAction func addCompany(_ sender: UIBarButtonItem) {
+    /*@IBAction func addCompany(_ sender: UIBarButtonItem) {
         let alert = UIAlertController(title: "New Company", message: "What's the name of the company?", preferredStyle: .alert)
         let confirmAction = UIAlertAction(title: "Confirm", style: .default) { [unowned self] action in
             let textField = alert.textFields?.first
@@ -75,7 +78,7 @@ class TableViewController: UITableViewController {
         alert.addAction(cancelAction)
         alert.addAction(confirmAction)
         present(alert, animated: true)
-    }
+    }*/
     
     func add(name: String) {
         let appDelegate = UIApplication.shared.delegate as? AppDelegate
@@ -100,7 +103,6 @@ class TableViewController: UITableViewController {
             companies = (try managedContext?.fetch(fetchRequest))!
             let company = companies[index]
             company.setValue(status, forKey: "status")
-            //managedContext?.delete(company)
             do {
                 try managedContext?.save()
             } catch let error as NSError {
@@ -108,6 +110,13 @@ class TableViewController: UITableViewController {
             }
         } catch {
             print("Error with request: \(error)")
+        }
+    }
+    
+    func initializeCoreData() {
+        let companiesList = ["Aalto Career and Recruiting Services","Aalto Start-Up Center","Aalto University Alumni Engagement","Aalto University Information Technology Program","Aalto Ventures Program","ABB","Academic Work","Accenture","Affecto","Airbus Defence and Space","Amban","Analyse2","Basware","Bitwards","Cadmatic","Capgemini + Idean","CGI","Cinia Group","Codemate","Codemen","Codership","CSC – IT Center for Science","Cybercom","Digia","Dream Broker","Duunitori","Eatech","eCraft","Efecte","EIT Digital Master School","Elisa","Elo Pension Company","Ericsson","Etteplan","EY","Fazer","FCG Prodacapo","Fingrid","FinScan","Forcepoint","Foreca","Fortum","Fujitsu Sofware Technologies","Futuriot","GE","Gofore + Leadin","Handelsbanken","Harald Herlin Learning Center Video Studio","HiQ","Houston Inc Consulting","ICEYE","Innofactor","Integration House","Invenco","Jamix","Japan Career Pavilions","Kela","Kesko","Kiinnostavimmat Työpaikat","Knowit","Kouvola Innovation + Propentus","Kyberrikostorjuntakeskus","Legal Register Centre","Microsoft","Mipro","National Land Survey of Finland","Neste Jacobs","Nitor","Nokia","NordPool","NVIDIA","Optiscan","P+SBD","Polycon","Poplatek","Procountor","Puolustusvoimat","RD Velho","RedLynx a Ubisoft Studio","RELEX Solutions","Remedy Entertainment","Sievo","Siili Solutions","Sogeti","Solteq","Startuplifers","Statoil","Studentwork","Suomen Erillisverkot","Sysmex","Taito United","TIVIA","Trimble","u-blox","Umbra","Unity Technologies","Urban Mill – Co-working and Co-creation platform","Vaisala","Valtori","Varian","Viking Line","Vincit","Visma","Visual Components","VRT","VTT Technical Research Centre of Finland","Works Applications","X-akseli"]
+        for company in companiesList {
+            self.add(name: company)
         }
     }
     
