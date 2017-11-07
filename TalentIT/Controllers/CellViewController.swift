@@ -1,12 +1,13 @@
 import UIKit
 
+
 class CellViewController: UITableViewCell {
     
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var statusIndicator: UILabel!
     
-    func setStatusIndicator(_ indexPath: IndexPath) {
-        switch companies[indexPath.row].status {
+    func setStatusColor(status: String) {
+        switch status {
         case "positive":
             statusIndicator.textColor = UIColor.green
         case "neutral":
