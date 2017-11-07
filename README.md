@@ -2,7 +2,9 @@
 
 TalentIT Career Fair app to quickly save positive/neutral/negative feedbacks from companies. Next time you get back home from such fair you will remember which companies you should contact and which not.
 
-## Compile suggestions
+## Compiling Suggestions
+
+If you want a pre-populated CoreData database follow these two steps.
 
 ![](CompileDetail.png)
 
@@ -12,4 +14,7 @@ In the Options tab, select `InitialData.xcappdata` from the Application Data men
 
 ## Coming Soon
 
-* Note field to add meaningful informations about the company
+* Ability to add companies (automatically sorted in alphabetical order)
+* Alphabetical side-selection in `TableView`
+* Note field to write meaningful informations about the company
+* Pre-loaded companies (so you don't have to prompt them manually)
