@@ -1,5 +1,7 @@
 # TalentIT Career Fair
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 TalentIT Career Fair app to quickly save positive/neutral/negative feedbacks from companies. Next time you get back home from such fair you will remember which companies you should contact and which not.
 
 ![](README/AppAnimation.gif)
