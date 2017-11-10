@@ -1,5 +1,6 @@
 import Foundation
 
+
 final class FirstLaunch {
     
     let userDefaults: UserDefaults = .standard

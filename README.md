@@ -7,7 +7,9 @@ TalentIT Career Fair app to quickly save positive/neutral/negative feedbacks fro
 
 <p align="center"><img src="README/AppAnimation.gif" /></p>
 
-## Compiling Suggestions
+## Compiling Suggestions (Deprecated)
+
+**This step is no longer required since the class `FirstLaunch` initializes the CoreData database only when the app is launched for the first time.**
 
 If you want a pre-populated CoreData database follow these two steps.
 
@@ -22,4 +24,4 @@ In the Options tab, select `InitialData.xcappdata` from the Application Data men
 * Ability to add companies (automatically sorted in alphabetical order)
 * Alphabetical side-selection in `TableView`
 * Note field to write meaningful informations about the company
-* Pre-loaded companies (so you don't have to prompt them manually)
+* ~~Pre-loaded companies (so you don't have to prompt them manually)~~
