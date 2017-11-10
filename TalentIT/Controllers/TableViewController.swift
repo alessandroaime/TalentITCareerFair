@@ -4,24 +4,25 @@ import CoreData
 
 class TableViewController: UITableViewController {
     
+    let firstLaunch = FirstLaunch()
+    
     var companies = [NSManagedObject]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        //initializeCoreData()
-        
+        if firstLaunch.isFirstLaunch {
+            initializeCoreData()
+        }
         title = "TalentIT"
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "Cell")
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        let appDelegate = UIApplication.shared.delegate as? AppDelegate
-        let managedContext = appDelegate?.persistentContainer.viewContext
-        let fetchRequest = NSFetchRequest<NSManagedObject>(entityName: "Company")
+        let context = getContext()
+        let request = getFetchRequest()
         do {
-            companies = (try managedContext?.fetch(fetchRequest))!
+            companies = (try context.fetch(request))
         } catch let error as NSError {
             print("Could not fetch. \(error), \(error.userInfo)")
         }
@@ -96,21 +97,31 @@ class TableViewController: UITableViewController {
     }
     
     func update(status: String, index: Int) {
-        let appDelegate = UIApplication.shared.delegate as? AppDelegate
-        let managedContext = appDelegate?.persistentContainer.viewContext
-        let fetchRequest: NSFetchRequest<Company> = Company.fetchRequest()
+        let context = getContext()
+        let request = getFetchRequest()
         do {
-            companies = (try managedContext?.fetch(fetchRequest))!
+            companies = (try context.fetch(request))
             let company = companies[index]
             company.setValue(status, forKey: "status")
             do {
-                try managedContext?.save()
+                try context.save()
             } catch let error as NSError {
                 print("Could not save. \(error), \(error.userInfo)")
             }
         } catch {
             print("Error with request: \(error)")
         }
+    }
+    
+    func getContext() -> NSManagedObjectContext{
+        let appDelegate = UIApplication.shared.delegate as? AppDelegate
+        let context = appDelegate?.persistentContainer.viewContext
+        return context!
+    }
+    
+    func getFetchRequest() -> NSFetchRequest<NSManagedObject> {
+        let request = NSFetchRequest<NSManagedObject>(entityName: "Company")
+        return request
     }
     
     func initializeCoreData() {
